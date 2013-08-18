@@ -52,6 +52,12 @@ on init
     mkdir /storage/sdcard1 0000 system system
     symlink /storage/sdcard1 /mnt/external_sd
 
+    
+    mkdir /storage/usbdrive0 0000 system system
+    symlink /storage/usbdrive0 /mnt/usbdrive0
+
+    export SECONDARY_STORAGE /storage/sdcard1:/storage/usbdrive0
+
     symlink /efs /factory
 
     symlink /dev/block/mmcblk0p11 /dev/block/param
