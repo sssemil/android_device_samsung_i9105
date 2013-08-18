@@ -13,3 +13,5 @@
 ######################
 
 dev_mount sdcard /storage/sdcard1 auto /devices/platform/sdhci.3/mmc_host/mmc2
+
+dev_mount usbdrive /storage/usbdrive0 auto /devices/platform/dwc_otg/usb1
