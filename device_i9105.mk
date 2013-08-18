@@ -12,13 +12,13 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/i9105/overlay
 
 # Init files
 PRODUCT_COPY_FILES += \
-	device/samsung/i9105/init.capri_ss_s2ve.rc:root/init.capri_ss_s2ve.rc \
-	device/samsung/i9105/init.bcm281x5.usb.rc:root/init.bcm281x5.usb.rc \
-	device/samsung/i9105/init.log.rc:root/init.log.rc \
-	device/samsung/i9105/init.recovery.capri_ss_s2ve.rc:root/init.recovery.capri_ss_s2ve.rc \
-	device/samsung/i9105/lpm.rc:root/lpm.rc \
-	device/samsung/i9105/ueventd.capri_ss_s2ve.rc:root/ueventd.capri_ss_s2ve.rc \
-	device/samsung/i9105/fstab.capri_ss_s2ve:root/fstab.capri_ss_s2ve \
+	device/samsung/i9105/rootdir/init.capri_ss_s2ve.rc:root/init.capri_ss_s2ve.rc \
+	device/samsung/i9105/rootdir/init.bcm281x5.usb.rc:root/init.bcm281x5.usb.rc \
+	device/samsung/i9105/rootdir/init.log.rc:root/init.log.rc \
+	device/samsung/i9105/rootdir/init.recovery.capri_ss_s2ve.rc:root/init.recovery.capri_ss_s2ve.rc \
+	device/samsung/i9105/rootdir/lpm.rc:root/lpm.rc \
+	device/samsung/i9105/rootdir/ueventd.capri_ss_s2ve.rc:root/ueventd.capri_ss_s2ve.rc \
+	device/samsung/i9105/rootdir/fstab.capri_ss_s2ve:root/fstab.capri_ss_s2ve \
 
 PRODUCT_COPY_FILES += \
 	device/samsung/i9105/vold.fstab:system/etc/vold.fstab \

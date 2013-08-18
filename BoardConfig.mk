@@ -10,6 +10,7 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
+TARGET_CPU_VARIANT := cortex-a9
 
 TARGET_BOOTLOADER_BOARD_NAME := capri
 
@@ -27,7 +28,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/i9105
-TARGET_KERNEL_CONFIG := cyanogenmod_i9105_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_selinux_i9105_defconfig
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -78,3 +79,7 @@ BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charg
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/i9105/ril/
+
+# Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/i9105/rootdir/fstab.capri_ss_s2ve
+RECOVERY_FSTAB_VERSION := 2
