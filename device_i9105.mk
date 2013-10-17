@@ -25,11 +25,11 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-	device/samsung/i9105/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
-	device/samsung/i9105/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
-	device/samsung/i9105/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-	device/samsung/i9105/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
-	device/samsung/i9105/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl
+	device/samsung/i9105/kl/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
+	device/samsung/i9105/kl/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
+	device/samsung/i9105/kl/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+	device/samsung/i9105/kl/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
+	device/samsung/i9105/kl/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
