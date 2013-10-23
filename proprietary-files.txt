@@ -2,7 +2,7 @@ bin/at_distributor
 bin/atrace
 bin/atx
 bin/atxd
-bin/BCM4330B1_002.001.003.0876.0996.hcd
+bin/BCM4334B0_002.001.013.0679.0000_03_Samsung_BaffinSpurCancellAlwaysOn.hcd
 bin/bkmgrd
 bin/cate_rpc_util
 bin/emma
@@ -19,7 +19,6 @@ bin/vcdbg
 bin/vclmk
 bin/vcos-version
 etc/asound.conf
-etc/audio_effects.conf
 etc/audio_policy.conf
 etc/camera_info.ini
 etc/DiamondVoice.txt
@@ -31,8 +30,8 @@ etc/media_profiles.xml
 etc/sensors.conf
 etc/srm.bin
 etc/Volume.db
-etc/wifi/bcmdhd_apsta.bin
-etc/wifi/bcmdhd_sta.bin
+etc/wifi/bcmdhd_apsta.bin_b2
+etc/wifi/bcmdhd_sta.bin_b2
 etc/wifi/nvram_net.txt
 etc/wifi/wpa_supplicant.conf
 lib/hw/alsa.default.so
